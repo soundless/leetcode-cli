@@ -138,6 +138,7 @@ Select a problem to fight. With `-g`+`-l`, the code template could be auto gener
     The return format had been changed to zero-based indices. Please read the above updated description carefully.
 
 * `-g` to generate source file.
+* `-d` to generate source file with problem description plus word wrapping.
 * `-l` to choose programming language. (Depends on which langs are provided on leetcode)
 	* c
 	* cpp
@@ -148,6 +149,7 @@ Select a problem to fight. With `-g`+`-l`, the code template could be auto gener
 	* python
 	* ruby
 	* swift
+
 * Instead of index number, you can use name to select a problem.
 	* `lc show "Two Sum"`
 	* `lc show two-sum`
